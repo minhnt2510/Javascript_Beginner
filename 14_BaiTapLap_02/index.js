@@ -45,6 +45,7 @@ const diemAnh = 7;
 
 const myTB = tinhTrungBinh(diemToan, diemVan, diemAnh);
 
+
 console.log(`
     Điểm trung bình: ${myTB}
     Xếp loại: ${xepLoai(myTB)}
