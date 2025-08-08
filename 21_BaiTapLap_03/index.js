@@ -65,7 +65,7 @@ const priceList = products.map((item, index) => {
   return item.price;
 });
 console.log(priceList);
-// dùng filter lấy sp còn hàng
+//7. dùng filter lấy sp còn hàng
 const inStockProduct = products.filter((item, index) => item.inStock === true);
 console.log("inStockProduct", inStockProduct);
 
