@@ -2,13 +2,13 @@
   "users": [
     {
       "id": 1,
-      "name": "Hỏi Dân IT",
-      "email": "hoidanit@example.com"
+      "name": "Nguyen Tan Minh",
+      "email": "minh@example.com"
     },
     {
       "id": 2,
-      "name": "Eric",
-      "email": "eric@example.com"
+      "name": "D Minh",
+      "email": "minh18@example.com"
     }
   ],
   "posts": [
