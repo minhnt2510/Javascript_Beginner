@@ -1,11 +1,11 @@
-## M?c dích
-- [ ] Tuân th? checklist
-- [ ] Ðã t? lint/test tru?c review
+## Purpose
+- [ ] Follow checklist
+- [ ] Lint/test locally before review
 
-## Liên k?t
+## Links
 Closes/Fixes #<issue>
 
-## Checklist ch?t lu?ng
-- [ ] Code dã lint/test
-- [ ] C?p nh?t tài li?u (README/Docs) n?u c?n
-- [ ] Nêu rõ SCIs b? ?nh hu?ng (code/docs/data/tools)
+## Quality checklist
+- [ ] Linted/tested
+- [ ] Docs updated if needed
+- [ ] List impacted SCIs (code/docs/data/tools)
