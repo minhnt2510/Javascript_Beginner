@@ -1,0 +1,24 @@
+name: Software Change Request (SCR)
+description: Ð? xu?t thay d?i
+title: "SCR: <mô t? ng?n>"
+labels: ["change-request"]
+body:
+  - type: input
+    id: initiator
+    attributes: { label: "Initiator", placeholder: "Tên ngu?i d? xu?t" }
+    validations: { required: true }
+  - type: input
+    id: date
+    attributes: { label: "Date", placeholder: "YYYY-MM-DD" }
+  - type: dropdown
+    id: kind
+    attributes: { label: "Character of change", options: ["Bug fix","Feature","Refactor","Docs"] }
+  - type: textarea
+    id: goals
+    attributes: { label: "Goals & expected contribution" }
+  - type: textarea
+    id: details
+    attributes: { label: "Change details (SCIs impacted, interfaces, risks)..." }
+  - type: textarea
+    id: estimates
+    attributes: { label: "Timetable & resource estimates" }
